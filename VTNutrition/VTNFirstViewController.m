@@ -24,8 +24,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
-        //self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        self.title = NSLocalizedString(@"Food", @"Food");
         self.tabBarItem.image = [UIImage imageNamed:@"magnifying_glass"];
     }
     return self;
